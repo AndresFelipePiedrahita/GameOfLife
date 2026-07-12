@@ -7,8 +7,10 @@
 ## 🟦 SPRINT 1 — Fundamentos
 
 ### Persona A — Núcleo del juego (lógica pura, sin UI)
-- [ ] Definir estructura de datos de la grilla (matriz 2D o set de celdas vivas)
-- [ ] Método `get_cell(x, y)` → devuelve estado (vivo/muerto)
+- [X] Definir estructura de datos de la grilla (matriz 2D o set de celdas vivas) 
+“Se definió la estructura de datos de la grilla. Se usará una matriz 2D como representación interna del estado del juego.”
+- [X] Método `get_cell(x, y)` → devuelve estado (vivo/muerto)
+Se implementó `get_cell` sobre la grilla 2D con validación de coordenadas.
 - [ ] Método `set_cell(x, y, valor)` → cambia estado de una celda
 - [ ] Función para contar vecinos vivos de una celda
 - [ ] Método `step()` → aplica las 4 reglas de Conway y genera la siguiente generación
