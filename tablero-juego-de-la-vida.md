@@ -16,7 +16,7 @@
 - [ ] Escribir 2-3 pruebas manuales (ej: un *blinker* debe oscilar entre dos estados)
 
 ### Persona B — Interfaz básica (Flet)
-- [ ] Crear ventana principal en Flet
+- [x] Crear ventana principal en Flet
 - [ ] Dibujar una grilla de celdas (Canvas o GridView) con tamaño fijo, sin lógica aún
 - [ ] Hacer que clic en una celda cambie su color (visual, sin conectar al núcleo todavía)
 - [ ] Layout base: espacio para la grilla + espacio para futuros botones/controles
